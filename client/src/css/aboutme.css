@@ -1,0 +1,119 @@
+.about-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  max-width: 1000px;
+  padding: 120px 0 100px 180px
+}
+.body-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.about-container p {
+  display: block;
+  text-align: left;
+  font-size: 1.3rem;
+}
+
+.container-about-kills {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(140px, 200px));
+  margin-top: 20px;
+  overflow: hidden;
+}
+
+.container-about-kills ul {
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+}
+.about-skills {
+  margin-bottom: 6px;
+  font-size: 16px;
+  font-family: Calibre, 'San Francisco', 'SF Pro Text', Roboto;
+}
+.about-skills::before {
+  content: '▹';
+  position: relative;
+  left: 0px;
+  color: #64ffda;
+  font-size: 16px;
+  line-height: 20px;
+  box-sizing: inherit;
+  padding-right: 5px;
+}
+
+.main-title {
+  font-size: 32px;
+}
+.container-left {
+  width: 60%;
+  max-width: 450px;
+}
+.container-right {
+  position: relative;
+  margin-left: 150px;
+  justify-content: space-between;
+  align-content: center;
+  width: 40%;
+  max-width: 300px;
+}
+.home-image img {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 50%;
+  opacity: .7;
+}
+
+.home-image img:hover {
+  background: #a8fae7;
+  opacity: 1;
+  transition: 2s;
+}
+
+.philosophy p::before {
+  content: '';
+  display: block;
+  height: 2px;
+  width: 240px;
+  background-color: #19ecbb;
+  position: relative;
+}
+.philosophy h4{
+  margin-bottom: 2px;
+}
+.philosophy p::after {
+  content: '';
+  display: block;
+  height: 2px;
+  width: 240px;
+  background-color: #19ecbb;
+  position: relative;
+}
+
+.philosophy p {
+  line-height: 2.2rem;
+  font-size: 1.5rem;
+  color: #a9b1c9;
+}
+.philosophy {
+  margin: 55px 0 0 25px;
+}
+
+a.about-inline{
+  display: 'inline-block';
+  /* position: 'relative'; */
+  cursor: 'pointer';
+  color: #64ffda;
+  text-decoration-line: none;
+}
+
+a.about-inline:hover{
+  color: #7ecfbc;
+  text-decoration-line: underline;
+}

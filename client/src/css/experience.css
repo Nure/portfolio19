@@ -1,0 +1,47 @@
+.experience-container {
+  max-width: 1000px;
+  padding: 160px 100px 220px 180px;
+}
+
+.main-title-experience {
+  font-size: 32px;
+  margin-bottom: 60px;
+}
+.experience-list-container {
+  display: flex;
+  align-items: flex-start;
+}
+
+.job-details {
+  padding-top: 8px;
+}
+
+.title-list-container li {
+  border-left: 2px solid #5d769b;
+  padding: 10px 20px;
+  cursor: pointer;
+  margin-top: 0;
+  position: relative;
+}
+
+.title-list-container li:hover {
+  color: #64ffda;
+  background: #172a45;
+  transition: 1s;
+}
+
+.current::before {
+  content: '';
+  display: block;
+  height: 16px;
+  width: 16px;
+  background-color: #19ecbb;
+  position: absolute;
+  border-radius: 50%;
+  top: 14px;
+  right: 8.2rem;
+}
+.current {
+  color: #64ffda;
+  background: #172a45;
+}

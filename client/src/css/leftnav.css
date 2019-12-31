@@ -1,0 +1,36 @@
+.social-links-left {
+  width: 40px;
+  left: 55px;
+  bottom: 0px;
+  position: fixed;
+}
+
+.social-list-l {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* position: fixed; */
+}
+.social-list-l::after {
+  content: '';
+  display: block;
+  width: 2px;
+  height: 110px;
+  background-color: #919db9;
+  margin-top: 20px;
+}
+.social-list-l li {
+  padding: 13px;
+}
+
+.social-list-l i {
+  color: #a0adcc;
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.social-list-l i:hover {
+  color: #64ffda;
+  transform: translateY(-3px);
+  font-size: 1.8rem;
+}

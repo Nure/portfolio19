@@ -1,0 +1,68 @@
+.project-other-container {
+  height: 300px;
+  width: 250px;
+  background: #132641;
+  padding: 25px;
+}
+.project-other-container:hover {
+  position: relative;
+  bottom: 10px;
+}
+.projects-header-left i {
+  color: #64ffda;
+  font-size: 2.5rem;
+}
+.projects-header-right-link {
+  margin-bottom: 30px;
+}
+.projects-header-right-link a i {
+  color: #d6dffc;
+  font-size: 1.8rem;
+  padding-left: 20px;
+}
+.projects-header-right-link a i:hover {
+  color: #64ffda;
+}
+
+.other-header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.other-project-title {
+  color: #d6dffc;
+  overflow: hidden;
+  text-align: left;
+  margin-bottom: 15px;
+}
+
+.other-project-description p {
+  overflow: hidden;
+  text-align: left;
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  min-height: 120px;
+  font-size: 1.1rem;
+}
+
+.footer-project-stacks {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 0px;
+  list-style: none;
+  position: relative;
+  bottom: 5px;
+}
+
+.footer-project-stacks li {
+  padding-right: 15px;
+  color: #687397;
+  font-size: 1.1rem;
+}

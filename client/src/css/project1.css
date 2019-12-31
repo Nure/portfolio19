@@ -1,0 +1,71 @@
+.project-1 {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 150px;
+  width: 60vw;
+}
+.right-panel {
+  display: flex;
+  flex-direction: column;
+  align-items: right;
+}
+.project-description1 p {
+  background: #172a45;
+  padding: 20px 20px;
+  width: 450px;
+  overflow: hidden;
+  text-align: right;
+  font-size: 1.2rem;
+  position: relative;
+}
+.p-1-feature,
+.project1-title {
+  position: relative;
+  text-align: right;
+  margin-top: 0 !important;
+}
+.project1-title {
+  color: #d6dffc;
+}
+.p-1-feature {
+  color: #64ffda;
+}
+.jamming {
+  height: 300px;
+  width: 500px;
+  position: relative;
+  left: 35px;
+  opacity: 0.8;
+}
+.jamming:hover {
+  opacity: 1;
+}
+
+.projects1-stacks li {
+  padding-right: 10px;
+  font-size: 1.1rem;
+}
+
+.projects1-stacks {
+  display: flex;
+  align-items: flex-end;
+  margin-top: 15px 0 20px 0;
+  position: relative;
+  left: 200px;
+}
+.project1-links {
+  padding-right: 10px;
+  text-align: right;
+  position: relative;
+  font-size: 1.5rem;
+  margin-top: 20px;
+}
+.link-document1 i {
+  color: #d6dffc;
+  padding-left: 20px;
+}
+
+.link-document1 i:hover {
+  color: #64ffda;
+}

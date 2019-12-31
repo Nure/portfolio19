@@ -1,0 +1,52 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+*,
+::before,
+::after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: Calibre, 'San Francisco', 'SF Pro Text', Roboto, 'Helvetica Neue',
+    'Segoe UI', Arial, sans-serif;
+  width: 100vw;
+  min-height: 100vh;
+  overflow-x: hidden;
+  display: block;
+  background: #0a192f;
+}
+h1,
+h2,
+h3,
+h4 {
+  font-weight: 600;
+  color: #b2beeb;
+}
+
+ul,
+ol {
+  padding: 0px;
+  margin: 0px;
+  list-style: none;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  overflow: hidden;
+  min-height: 100vw;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+p,
+li {
+  color: #a7b0d3;
+  font-family: Calibre, 'San Francisco', 'SF Pro Text', Roboto, 'Helvetica Neue', 'Segoe UI', Arial, sans-serif;
+}

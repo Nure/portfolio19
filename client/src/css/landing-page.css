@@ -1,0 +1,53 @@
+.landing-page {
+  display: flex;
+  max-width: 1000px;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 70px 0 100px 180px;
+}
+
+.heading-1,
+.heading-2 {
+  font-size: 65px;
+  line-height: 1.3;
+  font-weight: bold;
+  margin: 0;
+}
+.heading-1{
+  color: #dcdee7;
+}
+.heading-2{
+  color: #a2add3;
+}
+.landing-page p {
+  margin: 30px 0;
+  line-height: 1.5;
+  text-align: left;
+  font-size: 1.4rem;
+  font-family: Calibre, 'San Francisco', 'SF Pro Text', -apple-system, system-ui,
+    BlinkMacSystemFont, Roboto, 'Helvetica Neue', 'Segoe UI', Arial, sans-serif;
+}
+
+h5[class*='styles_'] {
+  margin-top: 0;
+  color: #64ffda;
+  font-size: 1.2rem;
+}
+
+.landing-page .button-contact {
+  text-decoration: none;
+  color: #64ffda;
+  font-size: 1rem;
+  border: 1px solid #64ffda;
+  padding: 15px;
+  display: inline-block;
+  width: 140px;
+  text-align: center;
+  letter-spacing: .1rem;
+  margin-top: 25px;
+}
+
+.landing-page .button-contact:hover {
+  background: #142b50;
+  transition: 0.7s;
+}

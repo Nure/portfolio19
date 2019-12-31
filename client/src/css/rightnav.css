@@ -1,0 +1,35 @@
+.social-links-right {
+  /* display: flex; */
+  flex-direction: column;
+  right: 55px;
+  bottom: 0px;
+  position: fixed;
+  font-family: 'Lucida Console', monospace;
+}
+
+.social-links-right a {
+  color: #a1b2d6;
+  font-size: 1.5rem;
+  text-decoration: none;
+  padding-bottom: 15px;
+}
+
+.social-links-right a:hover {
+  color: #64ffda;
+  transform: translateY(-3px);
+  font-size: 1.6rem;
+}
+
+.social-links-right .vertical-rotate {
+  writing-mode: vertical-rl;
+}
+
+.social-links-right::after {
+  content: '';
+  display: block;
+  width: 2px;
+  height: 110px;
+  background-color: #919db9;
+  margin: 0px auto;
+  margin-top: 10px;
+}

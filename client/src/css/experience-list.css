@@ -1,0 +1,31 @@
+.work-header {
+  padding-left: 30px;
+}
+.work-header h4 {
+  font-size: 1.4rem;
+  margin-top: 0;
+}
+.work-header h5 {
+  font-size: 1.2rem;
+  color: #a9b1c9;
+  margin-top: 6px;
+}
+.job-title .bg-dark,
+.job-title a {
+  color: #64ffda;
+}
+
+.job-title a {
+  text-decoration: none;
+}
+
+.responsibility-list ul li {
+  margin-bottom: 10px;
+}
+.responsibility-list ul li::before {
+  content: '▹';
+  color: #64ffda;
+  padding-right: 10px;
+}
+
+

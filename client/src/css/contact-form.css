@@ -1,0 +1,56 @@
+/* .contact-form{
+  background: red;
+} */
+p{
+     text-align: center;
+}
+input[type=text],input[type=email], textarea{
+  display: flex;
+
+  width: 400px;
+  padding: 10px;
+  border: .3px solid #64ffda;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  background: #0a192f;
+}
+textarea{
+  height: 100px
+}
+::placeholder{
+  color: #919db9;
+}
+input, select, textarea{
+    color: #fff;
+    outline: none;
+    font-size: 1rem;
+}
+
+textarea:focus, input:focus {
+    color: #fff;
+}
+
+ input[type=submit] {
+  width: 400px;
+  text-decoration: none;
+  color: #64ffda;
+  font-size: 1.1rem;
+  letter-spacing: 0.1em;
+  border: 1px solid #64ffda;
+  padding: 10px;
+  background: #0a192f;
+
+  display: inline-block;
+}
+ input[type=submit]:hover {
+  font-size: 1.7rem;
+  transition: 0.7s;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.contact-form{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
